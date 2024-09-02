@@ -1,7 +1,11 @@
-import styled from 'styled-components';
+import React from 'react'
 
-const () = styled.`
-  
-`;
+const App = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
 
-export default ();
+export default App
