@@ -4,7 +4,13 @@ const hero = () => {
     <div>
       <section className="hero divider">
         <div className='image'>
-            <img drc={profileImage} alt="Photo of Weston"/>
+            <img src={profileImage} alt="Photo of Weston"/>
+        </div>
+        <div>
+            <h1>Weston Rwigema</h1>
+            <p>Full Stack Developer</p>
+            <p>Ottawa, Canada</p>
+            <a href="#projects" className="btn">Check out my Work!</a>
         </div>
       </section>
     </div>
