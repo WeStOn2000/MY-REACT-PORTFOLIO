@@ -1,4 +1,5 @@
 import profileImage from"../assets/weston.JPG"
+import Link from "./Link"
 const hero = () => {
   return (
     <div>
@@ -10,7 +11,7 @@ const hero = () => {
             <h1>WESTON RWIGEMA</h1>
             <p>Full Stack Developer</p>
             <p>Ottawa, Canada</p>
-            <a href="#projects" className="btn">Check out my Work!</a>
+            <Link href="#projects" className="btn">Check out my Work!</Link>
         </div>
       </section>
     </div>
