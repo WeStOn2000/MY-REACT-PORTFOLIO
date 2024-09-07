@@ -1,4 +1,4 @@
-const Project = () => {
+const Project = ({data}) => {
   return (
   <article className="project">
     <div className="image"><img src={data.image} alt={data.title} />
@@ -10,9 +10,11 @@ const Project = () => {
                 <li key={tech}>{tech}</li>
             })}
         </ul>
+        <p>{data.description}</p>
     </div>
   </article>
   )
 }
+ 
 
 export default Project
