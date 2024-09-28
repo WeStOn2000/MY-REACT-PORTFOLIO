@@ -1,3 +1,5 @@
+import PropTypes from "prop-types"
+
 const Project = ({data}) => {
   return (
   <article className="project">
@@ -15,6 +17,16 @@ const Project = ({data}) => {
   </article>
   )
 }
- 
+
+
+Project.propTypes = {
+  data: PropTypes.shape({
+    image: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    tech: PropTypes.arrayOf(PropTypes.string).isRequired,
+    description: PropTypes.string.isRequired
+  }).isRequired
+}
+
 
 export default Project
