@@ -13,12 +13,16 @@ const Project = ({data}) => {
             })}
         </ul>
         <p>{data.description}</p>
+        <div>
+          <link href={data.livelink}>Live Site</link>
+          <link href={data.githublink}>Github</link>
+        </div>
     </div>
   </article>
   )
 }
 
-
+//Prop validation
 Project.propTypes = {
   data: PropTypes.shape({
     image: PropTypes.string.isRequired,
