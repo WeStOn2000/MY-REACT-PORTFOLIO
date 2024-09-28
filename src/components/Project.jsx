@@ -8,14 +8,14 @@ const Project = ({data}) => {
     <div className="content">
         <h3>{data.title}</h3>
         <ul>
-            {data.tech.map((tech) => {
+        {data.tech.map((tech) => {
                 <li key={tech}>{tech}</li>
             })}
         </ul>
         <p>{data.description}</p>
         <div>
-          <link href={data.livelink}>Live Site</link>
-          <link href={data.githublink}>Github</link>
+        <a href={data.liveLink}>Live Site</a>
+        <a href={data.githubLink}>Github</a>
         </div>
     </div>
   </article>
@@ -28,7 +28,9 @@ Project.propTypes = {
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     tech: PropTypes.arrayOf(PropTypes.string).isRequired,
-    description: PropTypes.string.isRequired
+    description: PropTypes.string.isRequired,
+    liveLink: PropTypes.string.isRequired,
+    githubLink: PropTypes.string.isRequired
   }).isRequired
 }
 

@@ -1,7 +1,7 @@
 import storyGenerator from "../assets/ai-story-generator.png"
 import businessCard from "../assets/business-card.png"
 import svgAnimations from "../assets/svg-animations.png"
-
+import Project from "./Project";
 const projectList = [
     {
       id: 1,
@@ -36,18 +36,18 @@ const projectList = [
     },
   ];
   
-  const projects = () => {
+  const Projects = () => {
     return (
-        <section id="projects" className="divider">
-            <h2>My projects</h2>
-            <div>
-                {projectList.map((project) => {
-                   <Project key={project.id} project={project} />
-                })}
-            </div>
-        </section>
+      <section id="projects" className="divider">
+        <h2>My projects</h2>
+        <div>
+          {projectList.map((project) => (
+            <Project key={project.id} {...project} />
+          ))}
+        </div>
+      </section>
     )
   }
   
-  export default projects
+  export default Projects
   
