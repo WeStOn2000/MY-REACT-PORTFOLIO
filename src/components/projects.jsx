@@ -42,7 +42,7 @@ const projectList = [
         <h2>My projects</h2>
         <div>
           {projectList.map((project) => (
-            <Project key={project.id} {...project} />
+            <Project key={project.id} data={project} />
           ))}
         </div>
       </section>
