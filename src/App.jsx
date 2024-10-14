@@ -1,21 +1,15 @@
-import Header from "./components/Header"
-import Hero from "./components/Hero"
-import Footer from "./components/footer"
 import About from "./components/About"
-import Projects from "./components/Projects"
-import Contact from "./components/Contact"
+import Header from "./components/Header"
+import  Hero  from "./components/Hero"
 
 const App = () => {
   return (
     <div>
-      <Header/>
+      <Header />
       <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
+      <Hero />
+      <About />
       </main>
-      <Footer />
     </div>
   )
 }

@@ -1,21 +1,29 @@
-import Link from "./Link"
-
 const About = () => {
   return (
-    <section id="about" className="about-diviner">
-      <h2>About me</h2>
-      <p>As a skilled full stack JavaScript developer, 
-      I bring a comprehensive understanding of both front-end and back-end development, 
-      enabling me to create seamless and efficient web applications. 
-      My expertise in JavaScript frameworks like React and Node.js allows me to develop dynamic user interfaces and robust server-side logic. 
-      Potential employers will benefit from my ability to handle all aspects of the development process, 
-      from designing responsive layouts to managing databases and APIs. 
-      This versatility not only streamlines project workflows but also ensures the delivery of high-quality, 
-      scalable solutions that meet modern business needs.
+    <section id="about" className="about divider">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Weston Rwigema, a passionate Full Stack JavaScript Developer
+        with a strong foundation in both front-end and back-end technologies. I
+        recently graduated with a Full Stack JavaScript Development degree from
+        Team Treehouse, where I honed my skills in React, Node.js, and
+        Express.js.
       </p>
-      <Link className="btn" href="#">Download My Resume</Link>
+      <p>
+        I am a highly adaptable full stack JavaScript developer with a strong
+        work ethic, always going above and beyond to meet expectations and
+        goals. I have hands-on experience with React, Node.js, Express, and REST
+        APIs, and have tackled real-world challenges like user authentication,
+        API validation, and state management using React Context API. My passion
+        for continuous learning, attention to detail, and commitment to growth
+        ensure that I deliver quality results while continuously evolving as a
+        software developer. Feel free to browse through my portfolio to see some
+        of the projects I've worked on. If you'd like to collaborate or have any
+        questions, don't hesitate to reach out!
+      </p>
+      <a className="btn" href="#">Download my Resume</a>
     </section>
   )
 }
 
-export default About
+export default About;

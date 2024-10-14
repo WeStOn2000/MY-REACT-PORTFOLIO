@@ -1,21 +1,17 @@
-import profileImage from"../assets/weston.JPG"
-import Link from "./Link"
-const hero = () => {
+import profileImage from "../assets/profile.jpg"
+
+export const Hero = () => {
   return (
-    <div>
-      <section className="hero divider">
-        <div className='image'>
+    <section className="hero divider">
+        <div className="image">
             <img src={profileImage} alt="Photo of Weston"/>
         </div>
         <div>
-            <h1>WESTON RWIGEMA</h1>
-            <p>Full Stack Developer</p>
-            <p>Ottawa, Canada</p>
-            <Link href="#projects" className="btn">Check out my Work!</Link>
+        <h1>WESTON RWIGEMA</h1>
+        <p>FULL-STACK WEB DEVELOPER</p>
+        <p>OTTAWA CANADA</p>
+        <a href="projects" className="btn">Check Out My Work</a>
         </div>
-      </section>
-    </div>
+    </section>
   )
 }
-
-export default hero
