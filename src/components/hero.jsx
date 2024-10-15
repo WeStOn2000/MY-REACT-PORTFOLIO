@@ -1,4 +1,5 @@
 import profileImage from "../assets/profile.jpg"
+import Link from "./Link"
 
 export const Hero = () => {
   return (
@@ -10,7 +11,7 @@ export const Hero = () => {
         <h1>WESTON RWIGEMA</h1>
         <p>FULL-STACK WEB DEVELOPER</p>
         <p>OTTAWA CANADA</p>
-        <a href="projects" className="btn">Check Out My Work</a>
+        <Link href="projects">Check Out My Work</Link>
         </div>
     </section>
   )
