@@ -1,3 +1,10 @@
+# Weston Rwigema's React Portfolio
+
+Welcome to my portfolio! I'm Weston Rwigema, a passionate Full Stack JavaScript Developer with a strong foundation in building dynamic web applications. 
+This portfolio showcases my projects and skills, highlighting my journey in software development.
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
