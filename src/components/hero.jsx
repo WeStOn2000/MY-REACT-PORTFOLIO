@@ -10,8 +10,8 @@ export const Hero = () => {
         <div>
         <h1>WESTON RWIGEMA</h1>
         <p>FULL-STACK WEB DEVELOPER</p>
-        <p>OTTAWA CANADA</p>
-        <Link href="projects">Check Out My Work</Link>
+        <p>CANADA</p>
+        <Link href="https://github.com/WeStOn2000">Check Out My Work</Link>
         </div>
     </section>
   )

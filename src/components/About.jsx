@@ -24,7 +24,7 @@ const About = () => {
         you&#39;d like to collaborate or have any questions, don&#39;t hesitate
         to reach out!
       </p>
-      <Link href="#">
+      <Link href="linkedin.com/in/weston-rwigema-3029082b3">
         Download my Resume
       </Link>
     </section>

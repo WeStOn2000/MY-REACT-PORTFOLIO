@@ -8,15 +8,15 @@
 
 /* Global CSS Variables */
 :root {
-  --body-bg: #fef2dc;
-  --header-text: #fef7e9;
-  --body-text: #050505;
-  --headings: #b65949;
-  --primary: #006361;
+  --body-bg: #5b5957;
+  --header-text: #0e0e0e;
+  --body-text: #0f0f0f;
+  --headings: #0a0a0a;
+  --primary: #737f7f;
   --primary-shadow: #0d4645;
-  --secondary: #d8a25a;
+  --secondary: #6c7e88;
   --secondary-shadow: #ab8147;
-  --white: #ffffff;
+  --white: #ada7a7;
 
   font-family: 'Young Serif', serif;
   text-align: center;
